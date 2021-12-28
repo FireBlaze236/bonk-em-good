@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9187271121381805167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9187271121381805165}
+  - component: {fileID: 9187271121381805164}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9187271121381805165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9187271121381805167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.23, y: 1.56, z: -2.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9187271121381805164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9187271121381805167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fd515b39f5d3646adc90a15de35e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bloodEffect: {fileID: 8752524314374227450, guid: f6e8ce749f1b27547b98fbfb8917c9a1, type: 3}
+  _hitEffect: {fileID: 1641902106656381715, guid: 98a3cd8af2b26be419f7e758893b5175, type: 3}
+  _enemyMinion: {fileID: 1328575438532970436, guid: 9a06cf7d17eb8ca428d4aaf686cb990f, type: 3}
+  _sparkleEffect: {fileID: 250474285949696183, guid: e689b4d697f537d43aa28bf87d5c56b4, type: 3}
+  _bossPrefab: {fileID: 8136106823297472673, guid: 7259fac4cd36b1547812000bb8b1849a, type: 3}
+  _bombPrefab: {fileID: 0}
+  _healthPickup: {fileID: 1463197450239242588, guid: f7215c11e2365714cb4c7704c0598384, type: 3}
+  _speedPickup: {fileID: 6325377769159668870, guid: 32439e87dbb5c2640a275346f8d24466, type: 3}
+  _sfxPlayer: {fileID: 8478957194609890827, guid: b40eb18562b24fa47a8ebbbd258178cb, type: 3}
